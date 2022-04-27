@@ -13,6 +13,10 @@
 		EF00FBEA28199A4800FF7D5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF00FBE828199A4800FF7D5E /* Main.storyboard */; };
 		EF00FBEC28199A4E00FF7D5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF00FBEB28199A4E00FF7D5E /* Assets.xcassets */; };
 		EF00FBEF28199A4E00FF7D5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF00FBED28199A4E00FF7D5E /* LaunchScreen.storyboard */; };
+		EF00FBF728199A8400FF7D5E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF00FBF628199A8400FF7D5E /* Model.swift */; };
+		EF00FBF928199AA700FF7D5E /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF00FBF828199AA700FF7D5E /* Combine.swift */; };
+		EF00FBFE2819B65E00FF7D5E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF00FBFC2819B65E00FF7D5E /* TableViewCell.swift */; };
+		EF00FBFF2819B65E00FF7D5E /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF00FBFD2819B65E00FF7D5E /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		EF00FBEB28199A4E00FF7D5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF00FBEE28199A4E00FF7D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF00FBF028199A4E00FF7D5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF00FBF628199A8400FF7D5E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		EF00FBF828199AA700FF7D5E /* Combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combine.swift; sourceTree = "<group>"; };
+		EF00FBFC2819B65E00FF7D5E /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		EF00FBFD2819B65E00FF7D5E /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				EF00FBE228199A4800FF7D5E /* AppDelegate.swift */,
 				EF00FBE428199A4800FF7D5E /* SceneDelegate.swift */,
 				EF00FBE628199A4800FF7D5E /* ViewController.swift */,
+				EF00FBF828199AA700FF7D5E /* Combine.swift */,
+				EF00FBF628199A8400FF7D5E /* Model.swift */,
+				EF00FBFC2819B65E00FF7D5E /* TableViewCell.swift */,
+				EF00FBFD2819B65E00FF7D5E /* TableViewCell.xib */,
 				EF00FBE828199A4800FF7D5E /* Main.storyboard */,
 				EF00FBEB28199A4E00FF7D5E /* Assets.xcassets */,
 				EF00FBED28199A4E00FF7D5E /* LaunchScreen.storyboard */,
@@ -126,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF00FBEF28199A4E00FF7D5E /* LaunchScreen.storyboard in Resources */,
+				EF00FBFF2819B65E00FF7D5E /* TableViewCell.xib in Resources */,
 				EF00FBEC28199A4E00FF7D5E /* Assets.xcassets in Resources */,
 				EF00FBEA28199A4800FF7D5E /* Main.storyboard in Resources */,
 			);
@@ -141,6 +154,9 @@
 				EF00FBE728199A4800FF7D5E /* ViewController.swift in Sources */,
 				EF00FBE328199A4800FF7D5E /* AppDelegate.swift in Sources */,
 				EF00FBE528199A4800FF7D5E /* SceneDelegate.swift in Sources */,
+				EF00FBFE2819B65E00FF7D5E /* TableViewCell.swift in Sources */,
+				EF00FBF928199AA700FF7D5E /* Combine.swift in Sources */,
+				EF00FBF728199A8400FF7D5E /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
